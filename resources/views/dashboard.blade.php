@@ -151,7 +151,7 @@
                 <div class="card bg-success text-white shadow mt-3">
                     <div class="card-body">
                         <div class="text-white-50 small">Alamat:</div>
-                        <div>Jl. Pendidikan No. 123, Penajam, Kalimantan Timur</div>
+                        <div>Jl. Maridan, Kec. Sepaku, Kabupaten Penajam Paser Utara, Kalimantan Timur 76146</div>
                         <div class="text-white-50 small mt-2">Kontak:</div>
                         <div>Telp: (0541) 123456</div>
                         <div>Email: perpus.sdn019@example.com</div>

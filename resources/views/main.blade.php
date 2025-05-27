@@ -16,6 +16,13 @@
     <link rel="stylesheet" href="{{ asset('style/assets/css/cs-skin-elastic.css') }}">
     <link rel="stylesheet" href="{{ asset('style/assets/scss/style.css') }}">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+    <style>
+        .navbar-brand img {
+            height: 100px;
+            width: auto;
+            margin-right: 8px;
+        }
+    </style>
     @yield('css')
 </head>
 <body>
@@ -31,7 +38,9 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="{{ url('/') }}">Lib - Zone</a>
+                <a class="navbar-brand" href="{{ url('/') }}">
+                    <img src="{{ asset('images/logo.png') }}" alt="LibZone Logo">
+                </a>
                 <a class="navbar-brand hidden" href="{{ url('/') }}">LZ</a>
             </div>
  

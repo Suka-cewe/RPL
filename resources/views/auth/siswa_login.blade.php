@@ -72,18 +72,12 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 1rem;
-            margin-bottom: 1.5rem;
+            width: 100%;
         }
         .login-logo-row img {
-            max-width: 70px;
+            max-width: 200px;
             height: auto;
-        }
-        .login-logo-row .libzone-title {
-            font-size: 2rem;
-            font-weight: 700;
-            color: #4e73df;
-            margin: 0;
+            margin: 0 auto;
         }
         .login-left .perpus-img {
             max-width: 120px;
@@ -167,8 +161,7 @@
         <div class="card card-login-custom d-flex flex-row">
             <div class="login-left col-lg-5 col-md-5 col-sm-12">
                 <div class="login-logo-row">
-                    <img src="{{ asset('images/logo_sekolah.png') }}" alt="Logo Sekolah">
-                    <span class="libzone-title">LibZone</span>
+                    <img src="{{ asset('images/logo.png') }}" alt="Logo Sekolah">
                 </div>
                 {{-- <img src="{{ asset('images/perpustakaan.png') }}" alt="Perpustakaan" class="perpus-img"> --}}
             </div>

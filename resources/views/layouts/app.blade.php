@@ -285,6 +285,17 @@
             flex-shrink: 0;
             background-color: #fff;
         }
+
+        .navbar-brand img {
+            height: 100px;
+            width: auto;
+            margin-right: 8px;
+        }
+
+        .sidebar-brand-icon img {
+            height: 100px;
+            width: auto;
+        }
     </style>
 
     @yield('styles')
@@ -303,9 +314,8 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('dashboard') }}">
                 <div class="sidebar-brand-icon">
-                    <i class="fas fa-book"></i>
+                    <img src="{{ asset('images/logo.png') }}" alt="LibZone Logo">
                 </div>
-                <div class="sidebar-brand-text mx-3">LibZone</div>
             </a>
 
             <!-- Divider -->
