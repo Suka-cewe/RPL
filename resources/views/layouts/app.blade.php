@@ -300,7 +300,10 @@
 
     @yield('styles')
 
-    <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}" sizes="16x16">
 </head>
 
 <body id="page-top">
